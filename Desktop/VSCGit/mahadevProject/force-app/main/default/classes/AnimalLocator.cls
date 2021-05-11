@@ -11,6 +11,7 @@ public class AnimalLocator {
            Map < string, Object > animals = (Map < String, Object >) results.get('animal');
            strResp = string.valueof(animals.get('name'));
            System.debug(strResp);
+           System.debug('Success');
         }
         return strResp ;
     }  
